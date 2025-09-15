@@ -1,0 +1,61 @@
+.explore-section {
+  padding: 60px 40px;
+  background-color: #f9fbfd;
+  min-height: 100vh;
+}
+
+.explore-section h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #002c5f;
+  margin-bottom: 40px;
+}
+
+.explore-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.explore-card {
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-top: 5px solid #0ea5e9;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.explore-card:hover {
+  transform: translateY(-6px);
+  border-top-color: #ff5e57;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.explore-card h2 {
+  font-size: 20px;
+  color: #002c5f;
+  margin-bottom: 10px;
+}
+
+.explore-card .tech {
+  font-size: 14px;
+  color: #0ea5e9;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.explore-card p {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.explore-card a {
+  text-decoration: none;
+  color: #0ea5e9;
+  font-weight: bold;
+}
